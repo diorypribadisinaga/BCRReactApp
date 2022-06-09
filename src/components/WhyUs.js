@@ -5,13 +5,13 @@ import {FaTrophy,FaRegThumbsUp,FaTag} from "react-icons/fa"
 
 export default function WhyUs() {
     return (
-        <div className='py-3 why'>
+        <div className='py-3 why' data-aos="zoom-in">
             <Container>
-                <div className='row text-center mb-3'>
+                <div className='row text-center mb-3' data-aos="zoom-in-up"  data-aos-delay="150" data-aos-duration="2000">
                     <h4>Why Us?</h4>
                     <p>Mengapa harus pilih Binar Car Rental?</p>
                 </div>
-                <div className='row'>
+                <div className='row' data-aos="fade-up-right" data-aos-delay="170" data-aos-duration="2000">
                     <div className='col-lg-3 mb-2'>
                         <Card>
                             <div className='judul rounded-circle p-2 m-2 mx-3 pt-1 rounded-circle' style={{background:'#f9cc00',width:"max-content"}}>

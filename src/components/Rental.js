@@ -2,10 +2,13 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import gambar from '../images/img_service.png'
 import cek from '../images/fi_check.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Rental() {
     return (
-        <div className='rental py-5'>
+        <div className='rental py-5' data-aos="fade-up" data-aos-delay='70'
+        data-aos-duration="3000">
             <Container>
                 <div className='row'>
                     <div className='col-lg-6 align-self-center mb-4'>
@@ -25,3 +28,4 @@ export default function Rental() {
         </div>
     )
 }
+AOS.init();

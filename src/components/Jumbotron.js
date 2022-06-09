@@ -14,8 +14,8 @@ export default function Jumbotron() {
                         <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
                         <Button  style={{background:'#5cb85f'}} className='py-2 rounded-3 px-3 mt-3'>Mulai Sewa Mobil</Button>{' '}
                     </div>
-                    <div className='col-lg-6'>
-                        <img width={'617px'} height={'330px'} src={mobil} alt='mobil'/>
+                    <div className='col-lg-6' data-aos-delay='160' data-aos-duration='3000'>
+                        <img data-aos="flip-left" width={'617px'} height={'330px'} src={mobil} alt='mobil'/>
                     </div>
                 </div>
             </Container>

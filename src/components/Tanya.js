@@ -3,7 +3,7 @@ import { Container,Form, FormLabel,FloatingLabel,Accordion} from 'react-bootstra
 
 export default function Tanya() {
     return (
-        <div className='py-4'>
+        <div className='py-4' data-aos="fade-up" data-aos-delay='70' data-aos-duration='1000'>
             <Container>
                 <div className='row'>
                     <div className='col-lg-6 mb-3 align-self-center'>
